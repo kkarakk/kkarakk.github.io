@@ -11,16 +11,29 @@
   -moz-background-clip:    padding; 
   background-clip:         padding-box;
   
-   -webkit-animation: fadein 5s ;
-    -webkit-animation-iteration-count: 1; 
+  -webkit-animation: fadein 5s ;
+   -webkit-animation-iteration-count: 1; 
+      -moz-animation: fadein 5s ;
+      -moz-animation-iteration-count: 1; 
+           animation: fadein 5s ;
+           animation-iteration-count: 1; 
 }
 
 #inner {
 	
     margin: 0 auto;
 }
-
 @-webkit-keyframes fadein {
+    0% {-webkit-transform: scale(1.0, 1.0); opacity: 0.0;}
+
+    100% {-webkit-transform: scale(1.0, 1.0); opacity: 1.0;}
+}
+@-moz-keyframes fadein {
+    0% {-webkit-transform: scale(1.0, 1.0); opacity: 0.0;}
+
+    100% {-webkit-transform: scale(1.0, 1.0); opacity: 1.0;}
+}
+keyframes fadein {
     0% {-webkit-transform: scale(1.0, 1.0); opacity: 0.0;}
 
     100% {-webkit-transform: scale(1.0, 1.0); opacity: 1.0;}
