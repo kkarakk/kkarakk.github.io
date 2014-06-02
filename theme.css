@@ -1,4 +1,15 @@
-#trial
-{
-background-color:red;
+.img-circular{
+ width: 200px;
+ height: 200px;
+ background-image: url('avatar.jpg');
+ background-size: cover;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+ border-radius:100px;
+ -webkit-background-clip: padding-box; 
+  -moz-background-clip:    padding; 
+  background-clip:         padding-box;
+  display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 }
