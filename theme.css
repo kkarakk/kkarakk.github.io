@@ -61,3 +61,8 @@ img{
     margin-left: -512px;   /* 50% */
   }
 }
+
+body:after{
+    display:none;
+    content: url(bg.jpg) u;
+}
