@@ -34,6 +34,7 @@ text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 
 }
 div#navigation{
+
 background:#B9CAFF
 }
 div#extra{
@@ -56,13 +57,13 @@ div#content{
 margin: 0 25%
 }
 div#navigation{
-float:left;width:25%;margin-left:-25%
+float:left;width:25%;margin-left:-25%;text-align:center;
 }
 div#social{
 text-align:center;
 }
 div#extra{
-float:left;width:25%;margin-left:-100%
+float:left;width:25%;margin-left:-100%;text-align:center;
 }
 div#footer{
 clear:left;width:100%
@@ -133,6 +134,7 @@ img{
 	 min-width: 1024px;
   }
 }
+
 
 body:after{
     display:none;
