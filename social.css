@@ -950,6 +950,10 @@ a.sb.email {
 	background-image: url(images/email.png);
 }
 
+a.sb.instagram {
+	background-image: url(images/instagram.png);
+}
+
 /* custom icon */
 a.sb.custom {
 	width: 80px;
