@@ -954,6 +954,11 @@ a.sb.instagram {
 	background-image: url(images/instagram.png);
 }
 
+a.sb.instagram {
+	background-image: url(images/codepen.png);
+}
+
+
 /* custom icon */
 a.sb.custom {
 	width: 80px;
