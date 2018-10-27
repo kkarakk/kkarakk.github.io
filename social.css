@@ -954,22 +954,36 @@ a.sb.instagram {
 	background-image: url(images/instagram.png);
 }
 
-a.sb.instagram {
+a.sb.codepen {
 	background-image: url(images/codepen.png);
 }
+/* stackoverflow icon */
+a.sb.stackoverflow {
+	width: 208px;
+	height: 58px;
+	background-image: url(https://stackoverflow.com/users/flair/806328.png?theme=dark);
 
+	
+}
+a.sb.stackoverflow:after {
+	background-image: url(https://stackoverflow.com/users/flair/806328.png?theme=dark);
+
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
 
 /* custom icon */
 a.sb.custom {
-	width: 80px;
-	height: 80px;
+	width: 208px;
+	height: 58px;
 	
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
 }
 a.sb.custom:after {
-	background-image: url(images/custom-bg.png);
+	background-image: url();
 
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;

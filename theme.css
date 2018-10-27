@@ -12,7 +12,7 @@ h1{
 font-size:44px;
 }
 p{
-margin:0 10px 10px
+margin:0 5px 9px
 }
 a{
 display:block;color: #981793;padding:10px
@@ -67,7 +67,7 @@ div#social{
 text-align:center;
 }
 div#extra{
-float:left;width:25%;margin-left:-100%;text-align:center;
+float:left;width:23%;margin-left:-100%;text-align:center;
 }
 div#footer{
 clear:left;width:100%
@@ -76,7 +76,7 @@ clear:left;width:100%
 .img-circular{
  width: 200px;
  height: 200px;
- background-image: url('avatar.jpg') ;
+ background-image: url('karan.webp') ;
  background-size: cover;
  
  -webkit-border-radius: 100px;
